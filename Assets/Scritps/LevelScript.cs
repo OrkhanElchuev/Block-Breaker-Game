@@ -31,11 +31,6 @@ public class LevelScript : MonoBehaviour
         SceneManager.LoadScene("Win Menu");
     }
 
-    public void DestroyingDelayedBall()
-    {
-        ball.DestroyMyself();
-    }
-
     public void ItemDestroyed()
     {
         breakableItems--;
@@ -43,7 +38,6 @@ public class LevelScript : MonoBehaviour
         {
             PlayerPrefs.SetInt("levelPassed", 1);
             PlayerPrefs.SetInt("passedLevelScore", gameStatusObject.GetCurrentScore());
-            Invoke("DestroyingDelayedBall", 0.1f);
             Invoke("LoadWinMenu", 0.5f);
         }
     }
