@@ -3,19 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
-    // Config parameters
+    // Configuration parameters 
     [SerializeField] Paddle paddle;
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
     [SerializeField] float randomFactor = 0.2f;
     [SerializeField] GameStatus gameStatus;
 
-    // Cached component
+    // Cached components
     Rigidbody2D myRigidBody2D;
 
-    // state
+    // Variables
     Vector2 paddleToBallVector;
     bool hasStarted = false;
+    private float maxSpeedOfBall = 15.0f;
+    private float minSpeedOfBall = 12.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +26,19 @@ public class Ball : MonoBehaviour
         myRigidBody2D = GetComponent<Rigidbody2D>();
     }
 
+    void FixedUpdate()
+    {
+        if (myRigidBody2D.velocity.magnitude > maxSpeedOfBall ||
+            myRigidBody2D.velocity.magnitude < minSpeedOfBall)
+        {
+            myRigidBody2D.velocity = Vector2.ClampMagnitude(myRigidBody2D.velocity, maxSpeedOfBall);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
+        
         if (!hasStarted)
         {
             LockBallToPaddle();
@@ -34,8 +46,10 @@ public class Ball : MonoBehaviour
         }
     }
 
+    // Launch the ball on mouseclick(or tap)
     private void LaunchOnMouseClick()
     {
+        // 0 represents left button of mouse
         if (Input.GetMouseButtonDown(0))
         {
             hasStarted = true;

@@ -3857,6 +3857,16 @@ PrefabInstance:
       propertyPath: gameStatus
       value: 
       objectReference: {fileID: 303346595}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: xPush
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: yPush
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6049610568298423302, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_LocalPosition.x
