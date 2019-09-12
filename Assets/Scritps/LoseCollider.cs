@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoseCollider : MonoBehaviour
 {
+    // On collision load Game Over scene
     private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene("Game Over");        
