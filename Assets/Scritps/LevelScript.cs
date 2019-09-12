@@ -38,7 +38,7 @@ public class LevelScript : MonoBehaviour
         {
             PlayerPrefs.SetInt("levelPassed", 1);
             PlayerPrefs.SetInt("passedLevelScore", gameStatusObject.GetCurrentScore());
-            Invoke("LoadWinMenu", 0.5f);
+            Invoke("LoadWinMenu", 0.3f);
         }
     }
 }
