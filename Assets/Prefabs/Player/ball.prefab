@@ -137,6 +137,7 @@ MonoBehaviour:
   xPush: 2
   yPush: 15
   randomFactor: 0.9
+  gameStatus: {fileID: 0}
 --- !u!82 &6049610568298423357
 AudioSource:
   m_ObjectHideFlags: 0

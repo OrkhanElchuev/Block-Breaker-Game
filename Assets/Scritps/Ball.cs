@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
     [SerializeField] float randomFactor = 0.2f;
+    [SerializeField] GameStatus gameStatus;
 
     // Cached component
     Rigidbody2D myRigidBody2D;
@@ -53,6 +55,19 @@ public class Ball : MonoBehaviour
             (Random.Range(0f, randomFactor),
             Random.Range(0f, randomFactor));
 
+        if(collision.gameObject.name == "Lose Collider")
+        {
+            Debug.Log("I destroyed");
+            DestroyMyself();
+            Ball newBall = Instantiate(this);
+            newBall.GetComponent<Ball>().enabled = true;
+            newBall.GetComponent<AudioSource>().enabled = true;
+            newBall.GetComponent<CircleCollider2D>().enabled = true;
+            Vector2 paddlePos = new Vector2(paddle.transform.position.x, paddle.transform.position.y);
+            //paddleToBallVector = newBall.transform.position - paddle.transform.position;
+            newBall.transform.position = paddlePos + paddleToBallVector;
+        }
+
         if (hasStarted)
         {
             GetComponent<AudioSource>().Play();
@@ -62,6 +77,10 @@ public class Ball : MonoBehaviour
 
     public void DestroyMyself()
     {
+        if(gameStatus.DecreaseHealth() == 0)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
         Destroy(gameObject);
     } 
 }

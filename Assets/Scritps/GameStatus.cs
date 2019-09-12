@@ -9,11 +9,17 @@ public class GameStatus : MonoBehaviour
     [Range(0.1f, 10f)][SerializeField] float gameSpeed = 1f;
     [SerializeField] int pointsPerBlock = 21;
     [SerializeField] TextMeshProUGUI scoreText;
-    //[SerializeField] bool isAutoPlayEnabled;
     
     // state variables
     [SerializeField] int currentScore = 0;
     private int currentLevelIndex;
+    private int health = 3;
+
+    public int DecreaseHealth()
+    {
+        health--;
+        return health;
+    }
 
     // Start is called before the first frame update
     private void Start()
@@ -38,11 +44,6 @@ public class GameStatus : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-    /*public bool IsAutoPlayEnabled()
-    {
-        return isAutoPlayEnabled;
-    }*/
 
     public void SetCurrentScore(int currentScore)
     {

@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.09803922}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.15686275}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.09803922}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.15686275}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d303f839a698b14e912f6a596c3fa31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 0.89
-  pointsPerBlock: 21
+  gameSpeed: 0.95
+  pointsPerBlock: 13
   scoreText: {fileID: 8672574777926833879}
   currentScore: 0

@@ -70,7 +70,6 @@
     <Compile Include="Assets\Scritps\LevelScoreManager.cs" />
     <Compile Include="Assets\Scritps\LevelScript.cs" />
     <Compile Include="Assets\Scritps\LevelsMenu.cs" />
-    <Compile Include="Assets\Scritps\LoseCollider.cs" />
     <Compile Include="Assets\Scritps\MovementPaddle.cs" />
     <Compile Include="Assets\Scritps\Paddle.cs" />
     <Compile Include="Assets\Scritps\SceneLoader.cs" />
