@@ -6,15 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class GameStatus : MonoBehaviour
 {
+    // Configuration parameters
     [Range(0.1f, 10f)][SerializeField] float gameSpeed = 1f;
     [SerializeField] int pointsPerBlock = 21;
     [SerializeField] TextMeshProUGUI scoreText;
     
-    // state variables
+    // Variables
     [SerializeField] int currentScore = 0;
     private int currentLevelIndex;
     private int health = 3;
 
+    // Handling health decrementing
     public int DecreaseHealth()
     {
         health--;
@@ -25,7 +27,7 @@ public class GameStatus : MonoBehaviour
     private void Start()
     {
         scoreText.text = currentScore.ToString();
-        Debug.Log(PlayerPrefs.GetInt("levelIndex"));
+        //Debug.Log(PlayerPrefs.GetInt("levelIndex"));
     }
 
     // Update is called once per frame
@@ -34,22 +36,26 @@ public class GameStatus : MonoBehaviour
         Time.timeScale = gameSpeed;
     }
 
+    // Adding points to current score of level converting value to String
     public void AddToScore()
     {
         currentScore += pointsPerBlock;
         scoreText.text = currentScore.ToString();
     }
 
+    // Destroying GameStatus object
     public void ResetGame()
     {
         Destroy(gameObject);
     }
 
+    // Setter for current Score
     public void SetCurrentScore(int currentScore)
     {
         this.currentScore = currentScore;
     }
 
+    // Getter for current Score
     public int GetCurrentScore()
     {
         return this.currentScore;
