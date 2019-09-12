@@ -4045,7 +4045,13 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 11.988889
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3159789246028476950, guid: 549ea72e8da834e4d97157c6a2858905,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3159789246028476951, guid: 549ea72e8da834e4d97157c6a2858905, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 549ea72e8da834e4d97157c6a2858905, type: 3}
 --- !u!1001 &4489918882225182413
 PrefabInstance:
@@ -4340,6 +4346,11 @@ PrefabInstance:
       propertyPath: paddle
       value: 
       objectReference: {fileID: 879640341}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: gameStatus
+      value: 
+      objectReference: {fileID: 303346595}
     - target: {fileID: 6049610568298423353, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_Color.r

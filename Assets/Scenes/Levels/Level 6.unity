@@ -1517,7 +1517,7 @@ PrefabInstance:
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
@@ -1586,7 +1586,7 @@ PrefabInstance:
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
@@ -2499,7 +2499,7 @@ PrefabInstance:
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5723056079470151950, guid: a989f5b21d0a29a4fb15031877fc8688,
         type: 3}
@@ -3230,7 +3230,7 @@ PrefabInstance:
     - target: {fileID: 3159789246028476936, guid: 549ea72e8da834e4d97157c6a2858905,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 3159789244592631059, guid: 549ea72e8da834e4d97157c6a2858905,
         type: 3}
@@ -3262,6 +3262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 11.988889
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159789244592631058, guid: 549ea72e8da834e4d97157c6a2858905,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3159789246028476950, guid: 549ea72e8da834e4d97157c6a2858905,
         type: 3}
@@ -3602,6 +3607,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
+        type: 3}
+      propertyPath: minX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
+        type: 3}
+      propertyPath: maxX
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7115993035739243365, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
