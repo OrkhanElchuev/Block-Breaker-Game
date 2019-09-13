@@ -8,6 +8,7 @@ public class WinMenu : MonoBehaviour
 {
     private int doesLevelExist;
     private int levelScore;
+
     [SerializeField] TextMeshProUGUI levelScoreText;
 
     // Start is called before the first frame update

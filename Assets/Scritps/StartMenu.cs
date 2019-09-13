@@ -17,6 +17,7 @@ public class StartMenu : MonoBehaviour
         }
     }
 
+    // Loading playing Scene
     public void LoadPlayScene()
     {
         SceneManager.LoadScene(PlayerPrefs.GetInt("levelIndex"));
@@ -34,13 +35,15 @@ public class StartMenu : MonoBehaviour
         SceneManager.LoadScene("Level Selector");
     }
 
+    // Ingame hard reset button, deleting all saved data in player preferences: levels, scores, etc.
     public void ResetButton()
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetInt("levelIndex", 1);
         PlayerPrefs.SetInt("level" + PlayerPrefs.GetInt("levelIndex"), 0);
     }
-    // Quiting game
+
+    // Quitting game
     public void QuitGame()
     {
         Application.Quit();

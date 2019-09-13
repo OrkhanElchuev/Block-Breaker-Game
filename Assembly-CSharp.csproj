@@ -72,7 +72,6 @@
     <Compile Include="Assets\Scritps\LevelsMenu.cs" />
     <Compile Include="Assets\Scritps\MovementPaddle.cs" />
     <Compile Include="Assets\Scritps\Paddle.cs" />
-    <Compile Include="Assets\Scritps\SceneLoader.cs" />
     <Compile Include="Assets\Scritps\StartMenu.cs" />
     <Compile Include="Assets\Scritps\WinMenu.cs" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
