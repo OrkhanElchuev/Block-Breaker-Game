@@ -9,6 +9,11 @@ public class StartMenu : MonoBehaviour
 
     private void Start()
     {
+        levelIndexHandling();
+    }
+
+    public void levelIndexHandling()
+    {
         levelIndex = PlayerPrefs.GetInt("levelIndex", 1);
         if (PlayerPrefs.GetInt("levelIndex") == 0)
         {
