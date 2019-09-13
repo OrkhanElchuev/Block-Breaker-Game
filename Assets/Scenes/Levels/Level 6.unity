@@ -3495,7 +3495,8 @@ PrefabInstance:
       propertyPath: ball
       value: 
       objectReference: {fileID: 60926354}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5263856045851281743, guid: 95be239f02996c74aa90b19797dd2763, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 95be239f02996c74aa90b19797dd2763, type: 3}
 --- !u!1001 &6049610567278893094
 PrefabInstance:
@@ -3621,7 +3622,7 @@ PrefabInstance:
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: normalizedPositionLeftX
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}

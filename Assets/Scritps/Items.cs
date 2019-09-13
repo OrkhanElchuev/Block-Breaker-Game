@@ -7,10 +7,9 @@ public class Items : MonoBehaviour
 {
     // configuration parameters
     [SerializeField] GameObject itemSparkleVFX;
-    //[SerializeField] AudioClip breakSound;
     [SerializeField] Sprite[] hitSprites;
      
-    // cached references
+    // variables
     LevelScript level;
 
     // state variables
@@ -21,9 +20,11 @@ public class Items : MonoBehaviour
         CountBreakableItems();
     }
 
+    // Counting breakable items in the level, created for debugging purposes
     private void CountBreakableItems()
     {
         level = FindObjectOfType<LevelScript>();
+        // Items with tag "breakable" will be counted
         if (tag == "Breakable")
         {
             level.CountItems();
@@ -38,8 +39,10 @@ public class Items : MonoBehaviour
         }
     }
 
+    // Handling different representations of object after getting damaged
     private void HandleHit()
     {
+        // Different amount of damage stages can be handled
         timesHit++;
         int maxHits = hitSprites.Length + 1;
         if (timesHit >= maxHits)
@@ -52,6 +55,7 @@ public class Items : MonoBehaviour
         }
     }
 
+    // Loading next condition(damaged) of item after collision with ball
     private void ShowNextHitSprite()
     {
         int spriteIndex = timesHit - 1;
@@ -61,10 +65,11 @@ public class Items : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Block sprite is missing from array" + gameObject.name);
+            Debug.LogError("Item's sprite is missing from array" + gameObject.name);
         }
     }
 
+    // Destroying item and triggering sparkle animation on destroy
     private void DestroyItem()
     {
         FindObjectOfType<GameStatus>().AddToScore();
@@ -75,6 +80,7 @@ public class Items : MonoBehaviour
         TriggerSparklesVFX();
     }
 
+    // Sparkle animation handling
     private void TriggerSparklesVFX()
     {
         GameObject sparkles = Instantiate(itemSparkleVFX, transform.position, transform.rotation);

@@ -5,17 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LevelScript : MonoBehaviour
 {
-    [SerializeField] int breakableItems; // Serialized for debugging purposes
+    [SerializeField] int breakableItems; // for debugging purposes
     [SerializeField] Ball ball;
-    // cached reference
-    SceneLoader sceneloader;
     [SerializeField] GameStatus gameStatusObject;
-
+    
     public void ResetLevelIndex()
     {
         PlayerPrefs.SetInt("levelIndex", SceneManager.GetActiveScene().buildIndex);
     }
 
+    // Reset the level index to current index on start of level
     private void Start()
     {
         ResetLevelIndex();
