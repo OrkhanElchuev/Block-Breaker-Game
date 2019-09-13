@@ -518,7 +518,7 @@ PrefabInstance:
     - target: {fileID: 8672574778773649048, guid: f393bec7bd31f3f41b90c63faef20aff,
         type: 3}
       propertyPath: gameSpeed
-      value: 1
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 8672574778773649048, guid: f393bec7bd31f3f41b90c63faef20aff,
         type: 3}
@@ -4286,6 +4286,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ball
       objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: paddle
+      value: 
+      objectReference: {fileID: 879640341}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: gameStatus
+      value: 
+      objectReference: {fileID: 303346595}
     - target: {fileID: 6049610568298423302, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4341,16 +4351,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
-        type: 3}
-      propertyPath: paddle
-      value: 
-      objectReference: {fileID: 879640341}
-    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
-        type: 3}
-      propertyPath: gameStatus
-      value: 
-      objectReference: {fileID: 303346595}
     - target: {fileID: 6049610568298423353, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_Color.r
