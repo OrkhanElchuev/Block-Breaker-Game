@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5263856045851281745}
   - component: {fileID: 5263856045851281742}
-  - component: {fileID: 5263856045851281743}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -44,16 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c3671d9414b9b429e6074a0b75b03c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakableBlocks: 0
---- !u!114 &5263856045851281743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5263856045851281740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1bf44df5fd3d05408b4b0b10bbe5e34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  breakableItems: 0
+  ball: {fileID: 0}
+  gameStatusObject: {fileID: 0}

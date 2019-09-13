@@ -16,8 +16,8 @@ public class Ball : MonoBehaviour
     // Variables
     Vector2 paddleToBallVector;
     bool hasStarted = false;
-    private float maxSpeedOfBall = 15.0f;
-    private float minSpeedOfBall = 12.0f;
+    private float maxSpeedOfBall = 18.0f;
+    private float minSpeedOfBall = 14.0f;
 
     // Start is called before the first frame update
     void Start()

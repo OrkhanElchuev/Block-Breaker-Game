@@ -27,7 +27,6 @@ public class GameStatus : MonoBehaviour
     private void Start()
     {
         scoreText.text = currentScore.ToString();
-        //Debug.Log(PlayerPrefs.GetInt("levelIndex"));
     }
 
     // Update is called once per frame
