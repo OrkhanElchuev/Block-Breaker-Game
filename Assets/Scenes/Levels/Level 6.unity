@@ -3509,6 +3509,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ball
       objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: paddle
+      value: 
+      objectReference: {fileID: 879640341}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: gameStatus
+      value: 
+      objectReference: {fileID: 303346595}
     - target: {fileID: 6049610568298423302, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3564,16 +3574,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
-        type: 3}
-      propertyPath: paddle
-      value: 
-      objectReference: {fileID: 879640341}
-    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
-        type: 3}
-      propertyPath: gameStatus
-      value: 
-      objectReference: {fileID: 303346595}
     - target: {fileID: 6049610568298423353, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_Color.r
@@ -3611,12 +3611,22 @@ PrefabInstance:
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: minX
-      value: 5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: maxX
-      value: 10
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
+        type: 3}
+      propertyPath: normalizedPositionLeftX
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
+        type: 3}
+      propertyPath: normalizedPositionRightX
+      value: 14.7
       objectReference: {fileID: 0}
     - target: {fileID: 7115993035739243365, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
