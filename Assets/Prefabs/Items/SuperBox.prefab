@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 499b3c92144652a488e2f443cb47c0f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemSparkleVFX: {fileID: 0}
+  itemSparkleVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
   hitSprites:
   - {fileID: 21300000, guid: 8bb07a4e9ef068a4a9057770f81552ac, type: 3}
   - {fileID: 21300000, guid: 727240fa31e7365438ffbd07f4e3094c, type: 3}
