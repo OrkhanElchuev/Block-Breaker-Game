@@ -67,7 +67,7 @@ EditorBuildSettings:
     guid: 0a18e4c792cf6194db9efda1d0993a9f
   - enabled: 1
     path: Assets/Scenes/Levels/Level 20.unity
-    guid: e65eaa8150b8b1d46adeed431a8cd547
+    guid: 8ce5e3be790d1de4e8c8e54f48d55b85
   - enabled: 1
     path: Assets/Scenes/Information Menu.unity
     guid: 27c1383f6a32fa64ab5ea8a1cd580282
@@ -80,9 +80,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Selector.unity
     guid: b95dc14809b7a0242b57859f3db0eed6
-  - enabled: 1
-    path: Assets/Scenes/Levels/Final Level Menu.unity
-    guid: ec1e79549e92745448ca2556825baa8a
   - enabled: 1
     path: Assets/Scenes/Win Menu.unity
     guid: 2e0b119da8dc0454eb84d8532c9dce38
