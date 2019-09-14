@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scritps\Ball.cs" />
+    <Compile Include="Assets\Scritps\FinalLevel.cs" />
     <Compile Include="Assets\Scritps\GameOver.cs" />
     <Compile Include="Assets\Scritps\GameStatus.cs" />
     <Compile Include="Assets\Scritps\InfoMenu.cs" />
