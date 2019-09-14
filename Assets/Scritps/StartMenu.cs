@@ -35,17 +35,15 @@ public class StartMenu : MonoBehaviour
         SceneManager.LoadScene("Information Menu");
     }
 
+    // Loading Reset Menu
+    public void LoadResetMenu()
+    {
+        SceneManager.LoadScene("Reset Menu");
+    }
+
     public void LoadLevelSelectionMenu()
     {
         SceneManager.LoadScene("Level Selector");
-    }
-
-    // Ingame hard reset button, deleting all saved data in player preferences: levels, scores, etc.
-    public void ResetButton()
-    {
-        PlayerPrefs.DeleteAll();
-        PlayerPrefs.SetInt("levelIndex", 1);
-        PlayerPrefs.SetInt("level" + PlayerPrefs.GetInt("levelIndex"), 0);
     }
 
     // Quitting game
