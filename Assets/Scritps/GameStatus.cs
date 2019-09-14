@@ -14,7 +14,7 @@ public class GameStatus : MonoBehaviour
     // Variables
     [SerializeField] int currentScore = 0;
     private int currentLevelIndex;
-    private int health = 3;
+    private int health = 5;
 
     // Handling health decrementing
     public int DecreaseHealth()
