@@ -32,7 +32,7 @@ public class Paddle : MonoBehaviour
           transform.position = new Vector2(normalizedPositionLeftX, normalizedPositionY);
         }
        
-       if(transform.position.y > maxX)
+       if(transform.position.x > maxX)
         {
             transform.position = new Vector2(normalizedPositionRightX, normalizedPositionY);
         }
