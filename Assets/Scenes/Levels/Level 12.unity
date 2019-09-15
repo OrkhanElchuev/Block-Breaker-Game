@@ -4650,12 +4650,12 @@ PrefabInstance:
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: normalizedPositionLeftX
-      value: 0.36
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: normalizedPositionRightX
-      value: 15.2
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}

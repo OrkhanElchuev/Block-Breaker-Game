@@ -591,6 +591,39 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7115993034878045401}
   m_PrefabAsset: {fileID: 0}
+--- !u!60 &879640336
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879640335}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.33, y: 0.61}
+    newSize: {x: 2.29, y: 0.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.005, y: 0.175}
+      - {x: -1.055, y: 0.105}
+      - {x: -1.055, y: -0.155}
+      - {x: -0.97499996, y: -0.21499999}
+      - {x: 1.0649999, y: -0.21499999}
+      - {x: 1.135, y: -0.16499999}
+      - {x: 1.135, y: 0.095}
+      - {x: 1.105, y: 0.175}
 --- !u!114 &879640341 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
@@ -1711,23 +1744,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
-      propertyPath: normalizedPositionRightX
-      value: 11.27
+      propertyPath: normalizedPositionLeftX
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
-      propertyPath: normalizedPositionLeftX
-      value: 3.98
+      propertyPath: normalizedPositionRightX
+      value: 12.3
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: minX
-      value: 3.3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7115993036049804623, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
       propertyPath: maxX
-      value: 12
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 7115993035739243365, guid: 24962dad95880bd4ba554f801e8787ed,
         type: 3}
@@ -1783,11 +1816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7115993035739243365, guid: 24962dad95880bd4ba554f801e8787ed,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24962dad95880bd4ba554f801e8787ed, type: 3}
