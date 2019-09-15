@@ -2293,6 +2293,26 @@ PrefabInstance:
       propertyPath: gameStatus
       value: 
       objectReference: {fileID: 303346595}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: randomFactor
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: yPush
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: minSpeedOfBall
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049610568298423354, guid: aeedcb8cf8427db498272aa7357e9529,
+        type: 3}
+      propertyPath: maxSpeedOfBall
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 6049610568298423302, guid: aeedcb8cf8427db498272aa7357e9529,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2473,6 +2493,14 @@ PrefabInstance:
     - target: {fileID: 879640339, guid: 24962dad95880bd4ba554f801e8787ed, type: 3}
       propertyPath: m_BodyType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 879640336, guid: 24962dad95880bd4ba554f801e8787ed, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].x
+      value: 1.096578
+      objectReference: {fileID: 0}
+    - target: {fileID: 879640336, guid: 24962dad95880bd4ba554f801e8787ed, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].y
+      value: 0.23953904
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24962dad95880bd4ba554f801e8787ed, type: 3}
