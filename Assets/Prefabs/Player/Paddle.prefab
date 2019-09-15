@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7115993035739243360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 2.45, z: 1}
+  m_LocalScale: {x: 4.7, y: 2.45, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9f4fbe2906fe5e440b1387f56350c0e0, type: 3}
-  m_Color: {r: 1, g: 0.66255593, b: 0.08962262, a: 1}
+  m_Color: {r: 0.972549, g: 0.20784314, b: 0.7921569, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120244cca7da5d44ba3756295a92acb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalizedPositionLeftX: 2.9
-  normalizedPositionRightX: 12.6
+  normalizedPositionLeftX: 0.6
+  normalizedPositionRightX: 15
   normalizedPositionY: 0.28
-  minX: 1
-  maxX: 13
+  minX: 0.3
+  maxX: 15.5
 --- !u!50 &879640339
 Rigidbody2D:
   serializedVersion: 4
@@ -148,11 +148,11 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.70142764, y: 0.15732817}
       - {x: -0.6225592, y: 0.16605039}
-      - {x: -1.0305873, y: 0.23302083}
-      - {x: -1.0440624, y: 0.10500001}
+      - {x: -1.024632, y: 0.07307922}
+      - {x: -1.0321518, y: 0.06501454}
       - {x: -1.0378124, y: -0.14224485}
       - {x: -0.971875, y: -0.19267836}
       - {x: 1.0649999, y: -0.21499999}
       - {x: 1.1196432, y: -0.12321305}
-      - {x: 1.1162306, y: 0.095000006}
-      - {x: 1.0965779, y: 0.20483853}
+      - {x: 1.1023483, y: -0.0008720889}
+      - {x: 1.1104598, y: 0.066356644}
