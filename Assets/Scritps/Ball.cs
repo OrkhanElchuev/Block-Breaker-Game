@@ -16,8 +16,7 @@ public class Ball : MonoBehaviour
     // Variables
     Vector2 paddleToBallVector;
     bool hasStarted = false;
-    private float maxSpeedOfBall = 18.0f;
-    private float minSpeedOfBall = 14.0f;
+    public float maxSpeedOfBall = 17.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,9 +27,9 @@ public class Ball : MonoBehaviour
 
     void FixedUpdate()
     {
-        // avoiding too fast and too slow speed of the ball
-        if (myRigidBody2D.velocity.magnitude > maxSpeedOfBall ||
-            myRigidBody2D.velocity.magnitude < minSpeedOfBall)
+        Debug.Log(myRigidBody2D.velocity);
+        // avoiding too fast speed of the ball
+        if (myRigidBody2D.velocity.magnitude > maxSpeedOfBall)
         {
             myRigidBody2D.velocity = Vector2.ClampMagnitude(myRigidBody2D.velocity, maxSpeedOfBall);
         }
@@ -39,7 +38,6 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if (!hasStarted)
         {
             LockBallToPaddle();
