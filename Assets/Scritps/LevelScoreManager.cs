@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class LevelScoreManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI[] levelScore = new TextMeshProUGUI[21];
-    [SerializeField] Button[] Buttons = new Button[21];
-    private int[] levelExists = new int[21]; 
+    [SerializeField] TextMeshProUGUI[] levelScore = new TextMeshProUGUI[16];
+    [SerializeField] Button[] Buttons = new Button[16];
+    private int[] levelExists = new int[16]; 
 
     private void Start()
     {
