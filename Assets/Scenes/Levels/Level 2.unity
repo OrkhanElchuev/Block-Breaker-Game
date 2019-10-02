@@ -234,6 +234,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Status
       objectReference: {fileID: 0}
+    - target: {fileID: 8672574778773649048, guid: f393bec7bd31f3f41b90c63faef20aff,
+        type: 3}
+      propertyPath: gameSpeed
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8672574778773649049, guid: f393bec7bd31f3f41b90c63faef20aff,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -288,11 +293,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8672574778773649048, guid: f393bec7bd31f3f41b90c63faef20aff,
-        type: 3}
-      propertyPath: gameSpeed
-      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8672574778344307325, guid: f393bec7bd31f3f41b90c63faef20aff,
         type: 3}
@@ -1311,12 +1311,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3159789244515524181, guid: 549ea72e8da834e4d97157c6a2858905,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8e8bfb78271a3cc4495a68269e54a1ff,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 549ea72e8da834e4d97157c6a2858905, type: 3}
 --- !u!1001 &4489918882225182413
@@ -1400,6 +1394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 160406515, guid: ef062bad41067bb4aaa8ecfdcf72be31, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 879640335}
     - target: {fileID: 5094228305106502244, guid: ef062bad41067bb4aaa8ecfdcf72be31,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1455,10 +1453,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 160406515, guid: ef062bad41067bb4aaa8ecfdcf72be31, type: 3}
-      propertyPath: character
-      value: 
-      objectReference: {fileID: 879640335}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef062bad41067bb4aaa8ecfdcf72be31, type: 3}
 --- !u!1001 &5263856046160665825
