@@ -1,7 +1,7 @@
 # Block-Breaker-Game
-## Unity based Block Breaker game projec for android devices.
-## Personal project for learning C# and getting familiar with Unity platform.
-### Tools used while developing this project.
+Unity based Block Breaker game projec for android devices. 
+Personal project for learning C# and getting familiar with Unity platform.
+## Tools used while developing this project.
 - Unity
 - GitBash
 - Visual Studio 2019. Coding in C# programming language
@@ -19,5 +19,5 @@
 - E-mail address orkhan.elchuev@gmail.com
 - https://github.com/OrkhanElchuev/Space-Invader-Game
 ## Aknowledgements
-- https://www.dafont.com/de/
-- https://www.lunapic.com/
+- [dafont](https://www.dafont.com/de/)
+- [LunaPic](https://www1.lunapic.com/editor/)
