@@ -27,7 +27,6 @@ public class Ball : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(myRigidBody2D.velocity);
         // avoiding too fast speed of the ball
         if (myRigidBody2D.velocity.magnitude > maxSpeedOfBall)
         {
