@@ -29,6 +29,6 @@ Personal project for learning C# and getting familiar with Unity platform.
 - E-mail address orkhan.elchuev@gmail.com
 - https://github.com/OrkhanElchuev/Space-Invader-Game
 
-## Aknowledgements
+## Acknowledgements
 - [dafont](https://www.dafont.com/de/)
 - [LunaPic](https://www1.lunapic.com/editor/)
